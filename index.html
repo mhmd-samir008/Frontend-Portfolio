@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Samir — Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- BACKGROUND BLOBS -->
+  <div class="blob-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">MS.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Frontend Developer</div>
+      <h1 class="hero-name">Mohamed<br/><em>Samir</em></h1>
+      <p class="hero-tagline">Crafting beautiful web experiences — where clean code meets creative design.</p>
+      <a href="#projects" class="hero-cta">View My Work</a>
+      <div class="hero-scroll">
+        <div class="hero-scroll-line"></div>
+        Scroll to explore
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-image-wrap observe">
+      <div class="about-placeholder">🌸</div>
+      <div class="about-deco"></div>
+    </div>
+    <div class="about-content observe">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Passionate about<br/>beautiful interfaces</h2>
+      <p class="about-text">
+        I'm Mohamed Samir, a Computer Science student at Benha University with a passion for bringing ideas to life through the web. I love the intersection of logic and aesthetics — writing clean, structured code that produces visually delightful experiences.
+      </p>
+      <p class="about-text">
+        Currently honing my frontend skills, I enjoy building interactive, responsive websites and continuously exploring new tools and techniques to grow as a developer.
+      </p>
+      <div class="about-badge">
+        <div class="dot"></div>
+        CS Student · Benha University
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills-header">
+      <div class="section-label" style="justify-content:center;">Skills</div>
+      <h2 class="section-title">My Tech Stack</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card observe" style="--pct:90%">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML</div>
+        <div class="skill-level">Proficient</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card observe" style="--pct:85%">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">CSS</div>
+        <div class="skill-level">Proficient</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card observe" style="--pct:75%">
+        <div class="skill-icon">⚡</div>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card observe" style="--pct:70%">
+        <div class="skill-icon">💻</div>
+        <div class="skill-name">C++</div>
+        <div class="skill-level">Intermediate</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+      </div>
+      <div class="skill-card observe" style="--pct:80%">
+        <div class="skill-icon">🧠</div>
+        <div class="skill-name">Programming Fundamentals</div>
+        <div class="skill-level">Strong</div>
+        <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-header">
+      <div class="section-label" style="justify-content:center;">Projects</div>
+      <h2 class="section-title">What I've Built</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card observe">
+        <div class="project-thumb">🛒</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-title">One Tech</div>
+          <p class="project-desc">A sleek e-commerce website for tech products, featuring a clean product listing, responsive layout, and smooth user interactions built from scratch with vanilla web technologies.</p>
+          <a href="https://mostafa612007.github.io/One-Teck/" target="_blank" class="project-link">
+            View Live Site
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Placeholder card -->
+      <div class="project-card observe" style="opacity:0.6">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #e8d5e0, #c9a7b0)">✨</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">Coming Soon</span>
+          </div>
+          <div class="project-title">Next Project</div>
+          <p class="project-desc">Something exciting is in the works. Stay tuned for the next project — great things take time to build.</p>
+          <span class="project-link" style="cursor:default; color:var(--mauve)">In Progress…</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label" style="justify-content:center; margin-bottom:0.5rem;">Contact</div>
+    <h2 class="section-title" style="text-align:center; margin-bottom:2.5rem;">Let's Connect</h2>
+    <div class="contact-card observe">
+      <p class="contact-intro">I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out through any of the channels below.</p>
+      <div class="contact-links">
+        <a class="contact-item" href="mailto:mohamedsamir008ms@gmail.com">
+          <div class="contact-item-icon">✉️</div>
+          <div>
+            <span class="contact-item-label">Email</span>
+            mohamedsamir008ms@gmail.com
+          </div>
+        </a>
+        <a class="contact-item" href="tel:+201010577365">
+          <div class="contact-item-icon">📞</div>
+          <div>
+            <span class="contact-item-label">Phone</span>
+            +20 101 057 7365
+          </div>
+        </a>
+        <a class="contact-item" href="https://github.com/mhmd-samir008" target="_blank">
+          <div class="contact-item-icon">🐙</div>
+          <div>
+            <span class="contact-item-label">GitHub</span>
+            github.com/mhmd-samir008
+          </div>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/mohamed-samir-97b09935a" target="_blank">
+          <div class="contact-item-icon">💼</div>
+          <div>
+            <span class="contact-item-label">LinkedIn</span>
+            Mohamed Samir
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Designed & Built with <span>♥</span> by Mohamed Samir · 2026
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
